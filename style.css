@@ -11,12 +11,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: #fff;
-  background: url(./background.jpg) no-repeat center center/cover;
-  background-attachment: fixed;
-}
-
-section {
-  padding: 100px 0;
+  background: url(./background.jpg) no-repeat center center/cover fixed;
 }
 
 .container {
@@ -24,6 +19,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 100px 0;
 }
 
 .container h1 {
@@ -31,15 +27,19 @@ section {
   font-size: 35px;
   text-align: center;
 }
+
 .container .detail-content p {
   font-size: 18px;
   margin: 0 150px;
   text-align: center;
 }
-.container-footer  {
+
+.container-footer {
   margin-top: 20px;
 }
-.container-footer .container-footer-title {
+
+.container-footer .container-footer-title,
+.container-footer-input {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,22 +47,16 @@ section {
 
 .container-footer-input {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   position: relative;
 }
 
-
-
 .container-footer-input input {
-  width: 150%;
+  width: calc(100% - 20px);
   padding: 10px;
   margin: 10px 0;
   border: 2px solid orange;
   border-radius: 2px;
-  /* outline: none; */
 }
 
 .container-footer-button {
@@ -70,12 +64,13 @@ section {
   justify-content: center;
   align-items: center;
 }
+
 .container-footer-button .btn {
   padding: 15px;
   margin: 10px;
   border: 2px solid #fff;
   border-radius: 2px;
-  background: #348BDA;
+  background: #348bda;
   color: #fff;
   cursor: pointer;
 }
@@ -84,18 +79,18 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
 }
+
 .ads-container i {
   font-size: 24px;
-  color: #6CAACB;
+  color: #6caacb;
 }
+
 .ads-container button {
   padding: 0 20px;
   margin: 10px;
-  /* border: 1px solid #fff; */
   border-radius: 2px;
-  background: #4BAF4F;
+  background: #4baf4f;
   color: #fff;
   cursor: pointer;
 }
