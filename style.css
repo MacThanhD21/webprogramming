@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Niconne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Neon&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+  background: url(./background.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+section {
+  padding: 100px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  width: 1000px;
+  font-size: 35px;
+  text-align: center;
+}
+.container .detail-content p {
+  font-size: 18px;
+  margin: 0 150px;
+  text-align: center;
+}
+.container-footer  {
+  margin-top: 20px;
+}
+.container-footer .container-footer-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-footer-input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+
+
+.container-footer-input input {
+  width: 150%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid orange;
+  border-radius: 2px;
+  /* outline: none; */
+}
+
+.container-footer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-footer-button .btn {
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  background: #348BDA;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ads-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.ads-container i {
+  font-size: 24px;
+  color: #6CAACB;
+}
+.ads-container button {
+  padding: 0 20px;
+  margin: 10px;
+  /* border: 1px solid #fff; */
+  border-radius: 2px;
+  background: #4BAF4F;
+  color: #fff;
+  cursor: pointer;
+}
